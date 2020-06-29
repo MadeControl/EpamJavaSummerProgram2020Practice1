@@ -9,8 +9,11 @@ public class Part3Test {
         String string = "";
         for(String arg : args){
             string = string + arg + " ";
+        } if(string.equals("")){
+            return string;
+        } else {
+            return string.substring(0, string.length()-1);
         }
-        return string.substring(0, string.length()-1);
     }
 
     @Test

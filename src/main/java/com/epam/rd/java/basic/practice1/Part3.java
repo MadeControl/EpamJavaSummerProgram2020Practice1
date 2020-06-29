@@ -7,9 +7,11 @@ public class Part3 {
         String string = "";
         for(String arg : args){
             string = string + arg + " ";
+        } if(string.equals("")){
+            System.out.print(string);
+        } else {
+            System.out.print(string.substring(0, string.length() - 1));
         }
-        System.out.print(string.substring(0, string.length()-1));
-
     }
 	
 }
