@@ -52,6 +52,7 @@ public class Part7 {
         }
         // When 3 letters (for example: AAA)
         else if (number >= 703) {
+            // for fixed number
             int ourNumber = number;
             // for third letter
             int temp = ourNumber % 26;
