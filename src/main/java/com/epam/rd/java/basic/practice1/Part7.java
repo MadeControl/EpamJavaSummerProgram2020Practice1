@@ -60,7 +60,7 @@ public class Part7 {
             ourNumber -= temp;
             // for first letter
             temp = ourNumber / (26 * 26);
-            result = Character.toString(temp + 65) + result;
+            result = Character.toString(temp + 65 - 1) + result;
             return result;
         }
         return result;
