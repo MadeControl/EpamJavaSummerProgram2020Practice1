@@ -24,12 +24,4 @@ public class Part3Test {
 
     }
 
-    @Test
-    public void part3test1(){
-
-        String[] args = new String[]{};
-        Assert.assertEquals("", part3main(args));
-
-    }
-
 }

@@ -25,6 +25,7 @@ public class Part7 {
 
     }
 
+
     public static String int2str(int number) {
         String result = "";
         // When 1 letter (for example: A)
