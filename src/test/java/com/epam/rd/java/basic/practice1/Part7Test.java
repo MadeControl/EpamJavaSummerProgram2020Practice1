@@ -17,7 +17,6 @@ public class Part7Test {
         Assert.assertEquals(703, Part7.str2int("AAA"));
 
     }
-
     
     @Test
     public void int2strTest(){
