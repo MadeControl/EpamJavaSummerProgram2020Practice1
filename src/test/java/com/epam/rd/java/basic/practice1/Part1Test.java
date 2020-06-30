@@ -8,7 +8,6 @@ public class Part1Test {
     public static String part1main(){
 
         return "Hello, World";
-
     }
 
     @Test
