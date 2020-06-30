@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ace26ca-7ce4-417f-a7b3-b76fa80c8677" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tytykvou-task1" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tytykvou-task1" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tytykvou-task1" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1e0jld2MYpB1k4LCpNdKHI0uJqz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Gradle.tytykvou-task1 [test]">
+    <configuration name="tytykvou-task1 [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="check" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="tytykvou-task1 [jacocoTestCoverageVerification]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jacocoTestCoverageVerification" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="tytykvou-task1 [jacocoTestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jacocoTestReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="tytykvou-task1 [tasks]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="tasks" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="tytykvou-task1 [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.tytykvou-task1 [check]" />
+        <item itemvalue="Gradle.tytykvou-task1 [jacocoTestCoverageVerification]" />
+        <item itemvalue="Gradle.tytykvou-task1 [jacocoTestReport]" />
+        <item itemvalue="Gradle.tytykvou-task1 [test]" />
+        <item itemvalue="Gradle.tytykvou-task1 [tasks]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ace26ca-7ce4-417f-a7b3-b76fa80c8677" name="Default Changelist" comment="" />
+      <created>1593465556458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593465556458</updated>
+      <workItem from="1593465562516" duration="251000" />
+      <workItem from="1593491794735" duration="278000" />
+      <workItem from="1593493522701" duration="8560000" />
+      <workItem from="1593504435887" duration="1518000" />
+      <workItem from="1593506394669" duration="1227000" />
+      <workItem from="1593508051181" duration="850000" />
+      <workItem from="1593508950211" duration="326000" />
+      <workItem from="1593518997658" duration="652000" />
+      <workItem from="1593521749209" duration="235000" />
+      <workItem from="1593538493323" duration="1982000" />
+    </task>
+    <task id="LOCAL-00001" summary="part7 war changed">
+      <created>1593465686375</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593465686375</updated>
+    </task>
+    <task id="LOCAL-00002" summary="part7 war changed (2)">
+      <created>1593492007568</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593492007568</updated>
+    </task>
+    <task id="LOCAL-00003" summary="nothing">
+      <created>1593493594176</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593493594176</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changed all parts">
+      <created>1593502863105</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593502863105</updated>
+    </task>
+    <task id="LOCAL-00005" summary="nothing 1">
+      <created>1593504460266</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593504460266</updated>
+    </task>
+    <task id="LOCAL-00006" summary="part3test: one test-method was deleted">
+      <created>1593504790131</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593504790131</updated>
+    </task>
+    <task id="LOCAL-00007" summary="nothing 2">
+      <created>1593505042765</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593505042765</updated>
+    </task>
+    <task id="LOCAL-00008" summary="part7: changed form 'A' to (int)'A'">
+      <created>1593505394298</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593505394298</updated>
+    </task>
+    <task id="LOCAL-00009" summary="nothing 3">
+      <created>1593505731384</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593505731384</updated>
+    </task>
+    <task id="LOCAL-00010" summary="nothing 4">
+      <created>1593505904758</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593505904758</updated>
+    </task>
+    <task id="LOCAL-00011" summary="demo changed">
+      <created>1593506435177</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593506435177</updated>
+    </task>
+    <task id="LOCAL-00012" summary="part7 was changed">
+      <created>1593506849833</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593506849833</updated>
+    </task>
+    <task id="LOCAL-00013" summary="nothing 6">
+      <created>1593507595388</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1593507595388</updated>
+    </task>
+    <task id="LOCAL-00014" summary="demo">
+      <created>1593508159122</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1593508159122</updated>
+    </task>
+    <task id="LOCAL-00015" summary="demo">
+      <created>1593508389049</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1593508389049</updated>
+    </task>
+    <task id="LOCAL-00016" summary="nothing 7">
+      <created>1593508581416</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1593508581416</updated>
+    </task>
+    <task id="LOCAL-00017" summary="part6 changed">
+      <created>1593509083819</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1593509083819</updated>
+    </task>
+    <task id="LOCAL-00018" summary="part6 changed (2)">
+      <created>1593519041730</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1593519041730</updated>
+    </task>
+    <task id="LOCAL-00019" summary="nothing 9">
+      <created>1593538551086</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1593538551086</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="part7 war changed" />
+    <MESSAGE value="part7 war changed (2)" />
+    <MESSAGE value="nothing" />
+    <MESSAGE value="changed all parts" />
+    <MESSAGE value="nothing 1" />
+    <MESSAGE value="part3test: one test-method was deleted" />
+    <MESSAGE value="nothing 2" />
+    <MESSAGE value="part7: changed form 'A' to (int)'A'" />
+    <MESSAGE value="nothing 3" />
+    <MESSAGE value="nothing 4" />
+    <MESSAGE value="demo changed" />
+    <MESSAGE value="part7 was changed" />
+    <MESSAGE value="nothing 6" />
+    <MESSAGE value="demo" />
+    <MESSAGE value="nothing 7" />
+    <MESSAGE value="nothing 8" />
+    <MESSAGE value="part6 changed" />
+    <MESSAGE value="part6 changed (2)" />
+    <MESSAGE value="nothing 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="nothing 9" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="530" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593503213409">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="530" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1593503213409" />
+    <state x="365" y="0" key="CommitChangelistDialog2" timestamp="1593538550219">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="365" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593538550219" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1593541040668">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593541040668" />
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom" timestamp="1593521983506">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593521983506" />
+    <state width="1493" height="220" key="GridCell.Tab.0.center" timestamp="1593521983506">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593521983506" />
+    <state width="1493" height="220" key="GridCell.Tab.0.left" timestamp="1593521983505">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593521983505" />
+    <state width="1493" height="220" key="GridCell.Tab.0.right" timestamp="1593521983506">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593521983506" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1593465638433">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593465638433" />
+    <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1593497095617">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1593497095617" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1593538562750">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593538562750" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593497039868">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593497039868" />
+  </component>
+</project>
