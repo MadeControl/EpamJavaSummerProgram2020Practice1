@@ -18,7 +18,7 @@ public class Part6 {
             if(divisorCounter < 2){
                 number[mas] = prost;
                 mas++;
-                System.out.print(prost);
+                System.out.print(prost + " ");
             }
             prost++;
         }
