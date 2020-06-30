@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class Part4Test {
 
-    private int part4main(String[] args){
+    public static int part4main(String[] args){
 
         int[] array = new int[2];
         int temp;

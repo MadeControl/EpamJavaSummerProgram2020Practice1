@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class Part6Test {
 
-    private static String part6main(String[] args){
+    public static String part6main(String[] args){
 
         int n = Integer.parseInt(args[0]);
         String result = "";

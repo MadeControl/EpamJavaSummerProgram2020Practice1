@@ -2,6 +2,7 @@ package com.epam.rd.java.basic.practice1;
 
 public class Part6 {
 
+    // This method isn't empty
     public static void main(String[] args) {
 
         int n = Integer.parseInt(args[0]);

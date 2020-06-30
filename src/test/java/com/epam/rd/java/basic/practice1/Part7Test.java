@@ -7,34 +7,36 @@ public class Part7Test {
 
     @Test
     public void str2intTest(){
-        Assert.assertEquals(Part7.str2int("A"),1);
-        Assert.assertEquals(Part7.str2int("B"),2);
-        Assert.assertEquals(Part7.str2int("Z"),26);
-        Assert.assertEquals(Part7.str2int("AA"),27);
-        Assert.assertEquals(Part7.str2int("AZ"),52);
-        Assert.assertEquals(Part7.str2int("BA"),53);
-        Assert.assertEquals(Part7.str2int("ZZ"),702);
-        Assert.assertEquals(Part7.str2int("AAA"),703);
+        Assert.assertEquals(1, Part7.str2int("A"));
+        Assert.assertEquals(2, Part7.str2int("B"));
+        Assert.assertEquals(26, Part7.str2int("Z"));
+        Assert.assertEquals(27, Part7.str2int("AA"));
+        Assert.assertEquals(52, Part7.str2int("AZ"));
+        Assert.assertEquals(53, Part7.str2int("BA"));
+        Assert.assertEquals(702, Part7.str2int("ZZ"));
+        Assert.assertEquals(703, Part7.str2int("AAA"));
+
     }
 
     @Test
     public void int2strTest(){
-        Assert.assertEquals(Part7.int2str(1),"A");
-        Assert.assertEquals(Part7.int2str(2),"B");
-        Assert.assertEquals(Part7.int2str(26),"Z");
-        Assert.assertEquals(Part7.int2str(27),"AA");
-        Assert.assertEquals(Part7.int2str(52),"AZ");
-        Assert.assertEquals(Part7.int2str(53),"BA");
-        Assert.assertEquals(Part7.int2str(702),"ZZ");
-        Assert.assertEquals(Part7.int2str(703),"AAA");
+        Assert.assertEquals("A", Part7.int2str(1));
+        Assert.assertEquals("B", Part7.int2str(2));
+        Assert.assertEquals("Z", Part7.int2str(26));
+        Assert.assertEquals("AA", Part7.int2str(27));
+        Assert.assertEquals("AZ", Part7.int2str(52));
+        Assert.assertEquals("BA", Part7.int2str(53));
+        Assert.assertEquals("ZZ", Part7.int2str(702));
+        Assert.assertEquals("AAA", Part7.int2str(703));
+
     }
 
     @Test
     public void rightColumnTest(){
-        Assert.assertEquals(Part7.rightColumn("A"), "B");
-        Assert.assertEquals(Part7.rightColumn("Z"), "AA");
-        Assert.assertEquals(Part7.rightColumn("AZ"), "BA");
-        Assert.assertEquals(Part7.rightColumn("ZZ"), "AAA");
+        Assert.assertEquals("B", Part7.rightColumn("A"));
+        Assert.assertEquals("AA", Part7.rightColumn("Z"));
+        Assert.assertEquals("BA", Part7.rightColumn("AZ"));
+        Assert.assertEquals("AAA", Part7.rightColumn("ZZ"));
     }
 
 }

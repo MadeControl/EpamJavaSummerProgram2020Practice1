@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class Part2Test {
 
-    private static int part2main(String[] args){
+    public static int part2main(String[] args){
 
         int sum = 0;
         for(String arg : args){

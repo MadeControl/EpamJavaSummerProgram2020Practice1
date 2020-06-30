@@ -4,13 +4,13 @@ public class Part3 {
 
     public static void  main(String[] args) {
 
-        String string = "";
+        StringBuilder string = new StringBuilder();
         for(String arg : args){
-            string = string + arg + " ";
-        } if(string.equals("")){
-            System.out.print(string);
+            string.append(arg).append(" ");
+        } if(string.toString().equals("")){
+            System.out.print(string.toString());
         } else {
-            System.out.print(string.substring(0, string.length() - 1));
+            System.out.print(string.toString().substring(0, string.length() - 1));
         }
     }
 	

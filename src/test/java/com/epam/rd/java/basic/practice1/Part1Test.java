@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class Part1Test {
 
-    private static String part1main(){
+    public static String part1main(){
 
         return "Hello, World";
 

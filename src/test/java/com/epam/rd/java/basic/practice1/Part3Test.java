@@ -6,13 +6,13 @@ import org.junit.Test;
 public class Part3Test {
 
     public static String part3main(String[] args){
-        String string = "";
+        StringBuilder string = new StringBuilder();
         for(String arg : args){
-            string = string + arg + " ";
-        } if(string.equals("")){
-            return string;
+            string.append(arg).append(" ");
+        } if(string.toString().equals("")){
+            return string.toString();
         } else {
-            return string.substring(0, string.length()-1);
+            return string.toString().substring(0, string.length()-1);
         }
     }
 
@@ -20,7 +20,15 @@ public class Part3Test {
     public void part3test(){
 
         String[] args = new String[]{"1","2","3"};
-        Assert.assertEquals(part3main(args), "1 2 3");
+        Assert.assertEquals("1 2 3", part3main(args));
+
+    }
+
+    @Test
+    public void part3test1(){
+
+        String[] args = new String[]{};
+        Assert.assertEquals("", part3main(args));
 
     }
 

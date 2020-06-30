@@ -2,6 +2,7 @@ package com.epam.rd.java.basic.practice1;
 
 public class Part7 {
 
+    // This method isn't empty
     public static void main(String[] args) {
         String string = " ==> ";
         System.out.println("A" + string + str2int("A") + string + int2str(1));
@@ -16,21 +17,17 @@ public class Part7 {
     }
 
     public static int str2int(String number) {
-        int result = 0;
         char[] array = number.toCharArray();
-        if (array.length == 1) {
-            return array[0] - 'A' + 1;
-        } else if (array.length == 2) {
-            return 26 * (array[0] - 'A' + 1) + (array[1] - 'A' + 1);
-        } else if (array.length == 3) {
-            return ((26 * (array[0] - 'A' + 1)) * (27 * (array[1] - 'A' + 1))) + (array[2] - 'A' + 1);
-        }
-        return 0;
+        int intNumber = 0;
+        for(int i = 0; i < array.length; i++){
+            intNumber += (int)Math.pow(26,i) * (array[array.length - i - 1] - 'A' + 1);
+        } return intNumber;
 
     }
 
     public static String int2str(int number) {
         String result = "";
+
         // When 1 letter (for example: A)
         if (number >= 1 && number <= 26) {
             result = Character.toString(number + 'A' - 1);
