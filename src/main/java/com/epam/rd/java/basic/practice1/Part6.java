@@ -24,7 +24,7 @@ public class Part6 {
             }
             prost++;
         }
-        System.out.println(stringBuilder.toString().substring(0, stringBuilder.toString().length() - 1));
+        System.out.print(stringBuilder.toString().substring(0, stringBuilder.toString().length() - 1));
     }
 	
 }
