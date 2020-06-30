@@ -1,5 +1,6 @@
 package com.epam.rd.java.basic.practice1;
 
+@SuppressWarnings("all")
 public class Part6 {
 
     // This method isn't empty
