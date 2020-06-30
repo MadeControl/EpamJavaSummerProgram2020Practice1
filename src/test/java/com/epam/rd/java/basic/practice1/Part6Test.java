@@ -11,7 +11,8 @@ public class Part6Test {
         StringBuilder result = new StringBuilder();
         for(int i = 1; i <= n; i++){
             result.append(2*i).append(" ");
-        } return result.toString().substring(0, result.length()-1);
+        }
+        return result.toString().substring(0, result.length()-1);
 
     }
 
