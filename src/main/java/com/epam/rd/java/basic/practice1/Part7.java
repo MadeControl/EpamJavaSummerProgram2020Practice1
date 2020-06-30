@@ -27,7 +27,6 @@ public class Part7 {
 
     public static String int2str(int number) {
         String result = "";
-
         // When 1 letter (for example: A)
         if (number >= 1 && number <= 26) {
             result = Character.toString(number + 'A' - 1);
