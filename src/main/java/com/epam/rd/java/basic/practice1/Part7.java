@@ -23,8 +23,7 @@ public class Part7 {
             intNumber += (int)Math.pow(26,i) * (array[array.length - i - 1] - 'A' + 1);
         } return intNumber;
     }
-
-
+    
     public static String int2str(int number) {
         String result = "";
         // When 1 letter (for example: A)
