@@ -9,6 +9,7 @@ public class Part6 {
         int[] number = new int[Integer.parseInt(args[0])];
         int prost = 2;
         int mas = 0;
+        StringBuilder stringBuilder = new StringBuilder();
         while(number[number.length-1] == 0){
             int divisorCounter = 0;
             for(int i = 2; i <= prost; i++){
@@ -19,10 +20,11 @@ public class Part6 {
             if(divisorCounter < 2){
                 number[mas] = prost;
                 mas++;
-                System.out.print(prost + " ");
+                stringBuilder.append(prost).append(" ");
             }
             prost++;
         }
+        System.out.println(stringBuilder.toString().substring(0, stringBuilder.toString().length() - 1));
     }
 	
 }
