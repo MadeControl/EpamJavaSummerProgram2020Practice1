@@ -22,7 +22,6 @@ public class Part7 {
         for(int i = 0; i < array.length; i++){
             intNumber += (int)Math.pow(26,i) * (array[array.length - i - 1] - 'A' + 1);
         } return intNumber;
-
     }
 
 
