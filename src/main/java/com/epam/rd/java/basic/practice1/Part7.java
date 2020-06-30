@@ -29,7 +29,7 @@ public class Part7 {
         String result = "";
         // When 1 letter (for example: A)
         if (number >= 1 && number <= 26) {
-            result = Character.toString(number + 'A' - 1);
+            result = Character.toString(number + (int)'A' - 1);
             return result;
         }
         // When 2 letters (for example: AA)
@@ -37,13 +37,13 @@ public class Part7 {
             int temp = number % 26;
             // When 2 letters are the same
             if (temp == 0) {
-                result = result + Character.toString(((number / 26) - 1) + 'A' - 1)
-                        + Character.toString(26 + 'A' - 1);
+                result = result + Character.toString(((number / 26) - 1) + (int)'A' - 1)
+                        + Character.toString(26 + (int)'A' - 1);
             }
             // When 2 letters are different
             else {
-                result = result + Character.toString((number - temp) / 26 + 'A' - 1)
-                        + Character.toString(temp + 'A' - 1);
+                result = result + Character.toString((number - temp) / 26 + (int)'A' - 1)
+                        + Character.toString(temp + (int)'A' - 1);
             }
             return result;
         }
@@ -53,15 +53,15 @@ public class Part7 {
             int ourNumber = number;
             // for third letter
             int temp = ourNumber % 26;
-            result = result + Character.toString(temp + 'A' - 1);
+            result = result + Character.toString(temp + (int)'A' - 1);
             ourNumber -= temp;
             // for second letter
             temp = ourNumber % (26 * 26);
-            result = Character.toString(temp / 26 + 'A' - 1) + result;
+            result = Character.toString(temp / 26 + (int)'A' - 1) + result;
             ourNumber -= temp;
             // for first letter
             temp = ourNumber / (26 * 26);
-            result = Character.toString(temp + 'A' - 1) + result;
+            result = Character.toString(temp + (int)'A' - 1) + result;
             return result;
         }
         return result;
