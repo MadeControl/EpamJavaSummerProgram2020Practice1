@@ -3,28 +3,26 @@ package com.epam.rd.java.basic.practice1;
 @SuppressWarnings("all")
 public class Part6 {
 
-    // This method isn't empty
     public static void main(String[] args) {
 
-        int[] number = new int[Integer.parseInt(args[0])];
-        int prost = 2;
-        int mas = 0;
+        int[] array = new int[Integer.parseInt(args[0])];
+        int primeNumber = 2;
+        int index = 0;
         StringBuilder stringBuilder = new StringBuilder();
-        while(number[number.length-1] == 0){
-            int divisorCounter = 0;
-            for(int i = 2; i <= prost; i++){
-                if((prost % i) == 0){
-                    divisorCounter++;
+        while(array[array.length-1] == 0){
+            int counter = 0;
+            for(int i = 2; i <= primeNumber; i++){
+                if((primeNumber % i) == 0){
+                    counter++;
                 }
             }
-            if(divisorCounter < 2){
-                number[mas] = prost;
-                mas++;
-                stringBuilder.append(prost).append(" ");
+            if(counter < 2){
+                array[index] = primeNumber;
+                index++;
+                stringBuilder.append(primeNumber).append(" ");
             }
-            prost++;
-        }
-        System.out.print(stringBuilder.toString().substring(0, stringBuilder.toString().length() - 1));
+            primeNumber++;
+        } System.out.print(stringBuilder.toString().substring(0, stringBuilder.toString().length() - 1));
     }
 	
 }

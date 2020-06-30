@@ -3,7 +3,6 @@ package com.epam.rd.java.basic.practice1;
 @SuppressWarnings("all")
 public class Part7 {
 
-    // This method isn't empty
     public static void main(String[] args) {
         String string = " ==> ";
         System.out.println("A" + string + str2int("A") + string + int2str(1));

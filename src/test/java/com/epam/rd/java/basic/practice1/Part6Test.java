@@ -9,24 +9,24 @@ public class Part6Test {
 
     public static int[] part6main(String[] args){
 
-        int[] number = new int[Integer.parseInt(args[0])];
-        int prost = 2;
-        int mas = 0;
-        while(number[number.length-1] == 0){
-            int divisorCounter = 0;
-            for(int i = 2; i <= prost; i++){
-                if((prost % i) == 0){
-                    divisorCounter++;
+        int[] array = new int[Integer.parseInt(args[0])];
+        int primeNumber = 2;
+        int index = 0;
+        StringBuilder stringBuilder = new StringBuilder();
+        while(array[array.length-1] == 0){
+            int counter = 0;
+            for(int i = 2; i <= primeNumber; i++){
+                if((primeNumber % i) == 0){
+                    counter++;
                 }
             }
-            if(divisorCounter < 2){
-                number[mas] = prost;
-                mas++;
-//                System.out.print(prost);
+            if(counter < 2){
+                array[index] = primeNumber;
+                index++;
+                stringBuilder.append(primeNumber).append(" ");
             }
-            prost++;
-        }
-        return number;
+            primeNumber++;
+        } return array;
 
     }
 
