@@ -8,11 +8,11 @@ public class Part6Test {
     public static String part6main(String[] args){
 
         int n = Integer.parseInt(args[0]);
-        String result = "";
+        StringBuilder result = new StringBuilder();
         for(int i = 1; i <= n; i++){
-            result = result + (2*i) + " ";
+            result.append(2*i).append(" ");
         }
-        return result.substring(0, result.length()-1);
+        return result.toString().substring(0, result.length()-1);
 
     }
 

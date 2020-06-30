@@ -6,11 +6,11 @@ public class Part6 {
     public static void main(String[] args) {
 
         int n = Integer.parseInt(args[0]);
-        String result = "";
+        StringBuilder result = new StringBuilder();
         for(int i = 1; i <= n; i++){
-            result = result + (2*i) + " ";
+            result.append(2*i).append(" ");
         }
-        System.out.print(result.substring(0, result.length()-1));
+        System.out.print(result.toString().substring(0, result.length()-1));
 
     }
 	
