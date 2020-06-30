@@ -18,7 +18,7 @@ public class Part2Test {
     public void part2test(){
 
         String[] array = new String[]{"1", "2", "3", "4"};
-        Assert.assertEquals(part2main(array), 10);
+        Assert.assertEquals(10, part2main(array));
 
     }
 

@@ -25,7 +25,7 @@ public class Part4Test {
     public void part4test(){
 
         String[] array = new String[]{"10", "5"};
-        Assert.assertEquals(part4main(array), 5);
+        Assert.assertEquals(5, part4main(array));
 
     }
 

@@ -2,14 +2,14 @@ package com.epam.rd.java.basic.practice1;
 
 public class Part5 {
 
-    // This method isn't empty
     public static void main(String[] args) {
 
+        int n = Integer.parseInt(args[0]);
         int sum = 0;
-        for(String arg : args){
-            sum += Integer.parseInt(arg);
-        }
-        System.out.print(sum);
+        while(n != 0 ){
+            sum += n % 10;
+            n /= 10;
+        } System.out.print(sum);
 
     }
 	
