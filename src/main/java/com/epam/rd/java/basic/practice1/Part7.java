@@ -23,7 +23,7 @@ public class Part7 {
             intNumber += (int)Math.pow(26,i) * (array[array.length - i - 1] - 'A' + 1);
         } return intNumber;
     }
-    
+
     public static String int2str(int number) {
         String result = "";
         // When 1 letter (for example: A)
@@ -36,7 +36,7 @@ public class Part7 {
             int temp = number % 26;
             // When 2 letters are the same
             if (temp == 0) {
-                result = result + Character.toString(((number / 26) - 1) + (int)'A' - 1)
+                result = result + Character.toString(((number / 26) - 1) + (int) 'A' - 1)
                         + Character.toString(26 + (int)'A' - 1);
             }
             // When 2 letters are different
