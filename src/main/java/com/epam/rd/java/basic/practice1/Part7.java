@@ -67,6 +67,7 @@ public class Part7 {
     }
 
     public static String rightColumn(String number) {
-        return int2str(str2int(number) + 1);
+        int temp = str2int(number);
+        return int2str(temp + 1);
     }
 }
