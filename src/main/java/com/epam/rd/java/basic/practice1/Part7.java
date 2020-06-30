@@ -12,6 +12,7 @@ public class Part7 {
         System.out.println("BA" + string + str2int("BA") + string + int2str(53));
         System.out.println("ZZ" + string + str2int("ZZ") + string + int2str(702));
         System.out.println("AAA" + string + str2int("AAA") + string + int2str(703));
+
     }
 
     public static int str2int(String number) {
